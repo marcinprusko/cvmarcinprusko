@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
+
+body {
+	background-color: white;
+	font-family: 'Gloria Hallelujah', cursive;
+	padding: 10px 40px;
+}
+.gora img {
+	float: right;
+	max-width: 300px;
+	max-height:300px;
+	border-radius: 8px;
+}
+.gora p {
+	font-size: 20px;
+	font-weight: bold;
+}
+.gora,.exper, .skills, .eduk {
+	padding-bottom: 60px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+td {
+	padding: 10px;
+}
+input[type=text] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+input[type=text]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 102%;
+    opacity: 0.9;
+}
+button:hover {
+    opacity:1;
+}
+.signupbtn {
+  float: left;
+}
+.showed {
+	display: none;
+}
+.showb button {
+	margin-bottom: 10px;
+}

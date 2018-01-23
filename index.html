@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" href="style.css">
+		<meta charset="UTF-8">
+		<meta name="description" content="CV Marcin Prusko">
+		<meta name="keywords" content="junior front-end devoloper, CV Marcin Prusko">
+		<meta name="author" content="Marcin Prusko">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>CV - Marcin Prusko</title>
+	</head>
+	<body>
+	<header>
+		<div class="gora">
+			<img id="image" src="" alt="Marcin">
+			<h1 id="text1"></h1>
+			<p id="text2"></p>
+		</div>
+	</header>
+	<main>
+		<div class="exper">
+			<h2 id="text3"></h2>
+			<p id="experi"></p>
+		</div>
+		<div class="eduk">
+			<h2 id="text4"></h2>
+			<p id="eduka"></p>
+		</div>
+		<div class="skills">
+			<h2 id="text5"></h2>
+			<div id="tabli"></div>
+		</div>
+		<div id="form">
+			<h2 id="text6"></h2>
+			<button type="button" class="signupbtn, showb" onclick="showDiv()" >Pokaż / Schowaj</button>
+			<div class="showed" id="show">
+				<form>
+					<label><b>E-mail</b></label>
+					<input type="text" id="emails" placeholder="E-mail" name="email" required>
+					<label><b>Imię</b></label>
+					<input type="text" id="names" placeholder="Imię" name="name" required>
+					<label><b>Nazwisko</b></label>
+					<input type="text" id="surnames" placeholder="Nazwisko" name="surname" required>
+					<label><b>Pytanie</b></label>
+					<input type="text" id="quest" placeholder="Pytanie" name="question" required>
+					<label>
+	    			<input type="checkbox" checked="checked"> Zapamiętaj mnie
+	    			</label>
+					<div class="clearfix">
+					    <button type="submit" class="signupbtn" onclick="inputValidator(), inputValidatore()" >Wyślij</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</main>
+	<footer>
+		<p></p>
+	</footer>
+	<script type="text/javascript" src="script.js"></script>
+	</body>
+</html>
